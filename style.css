@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  /* background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%); */
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: rgb(19, 19, 92);
+  border-radius: 5px;
+  margin: 0 30px;
+}
+nav {
+  display: flex;
+  justify-content: SPACE-AROUND;
+  align-items: center;
+  margin-top: 20px;
+  height: 50px;
+}
+.left {
+  text-align: left;
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.firstSection div {
+  width: 40%;
+}
+.leftSection {
+  margin-top: 200px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  text-decoration: none;
+  color: rgb(191, 123, 255);
+  font-size: 1.02rem;
+}
+.purple {
+  color: rgb(191, 123, 255);
+}
+p {
+  background-color: black;
+  border-radius: 5px;
+}
+.secondSection {
+  display: block;
+  justify-content: space-around;
+  margin: 30px;
+}
+.secondSection p {
+  /* margin: 10px; */
+  padding: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(4, 4, 63) 35%
+  );
+}
+.thirdSection {
+  display: block;
+  justify-content: space-around;
+  margin: 30px;
+}
+.thirdSection .container {
+  display: flex;
+  justify-content: space-around;
+}
+.thirdSection .container .card {
+  padding: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(4, 4, 63) 35%
+  );
+  border-radius: 5px;
+  margin: 5px;
+  width: 20%;
+}
+.thirdSection .container .card p {
+  background-color: inherit;
+  padding-bottom: 6px;
+  font-size: larger;
+  font-weight: bold;
+}
+.fourthSection {
+  display: block;
+  justify-content: space-around;
+  margin: 30px;
+}
+.fourthSection .container {
+  display: block;
+  justify-content: space-around;
+}
+.fourthSection .container .container3grid {
+  display: flex;
+  justify-content: space-around;
+}
+.fourthSection .container .container3grid .card {
+  padding: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(4, 4, 63) 35%
+  );
+  border-radius: 5px;
+  margin: 5px;
+  width: 25%;
+}
+.fourthSection .container .container3grid .card p {
+  background-color: inherit;
+  padding-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.fifthSection{
+  display: block;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.fifthSection .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fifthSection .container .social{
+    background-color: inherit;
+    padding-bottom: 6px;
+}
+.fifthSection .container .contactform{
+    background-color: inherit;
+    padding-bottom: 6px;
+}
