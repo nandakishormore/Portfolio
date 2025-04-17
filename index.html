@@ -1,220 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Nandakishor Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">
-          <a href="/index.html"><b>Nandakishor</b> <i>More</i></a>
-        </div>
-        <div class="right">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Nandakishor Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <a href="/index.html"><b>Nandakishor</b> <i>More</i></a>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Techstack">TechStack</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <h3>Hello World 👋</h3>
+        <h2 style="font-weight: normal">
+          My Name is <b><span class="purple">Nandakishor</span></b> 😎.
+        </h2>
+        <h4 style="font-weight: normal; margin-top: 5px">
+          Passionate <span id="element"></span>
+        </h4>
+        <h5 style="font-weight: normal">
+          Crafting code & automating the chaos ✌
+        </h5>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="" height="400px" width="400px" />
+      </div>
+    </section>
+
+    <hr style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)" />
+
+    <section id="About" class="secondSection">
+      <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
+        ABOUT ME
+      </h2>
+      <p>
+        Hi, I'm Nandakishor More — a passionate
+        <strong>Java Backend Developer</strong>, enthusiastic
+        <strong>DevOps Ninja</strong>, and certified
+        <strong>Cloud Practitioner</strong>. I hold a
+        <strong>GCP ACE Certification</strong> and am currently expanding my
+        horizons into multi-cloud platforms like AWS and Azure. <br /><br />
+        Beyond the code, I'm an adventurer at heart. I love
+        <strong>travelling</strong>, <strong>trekking</strong>, and exploring
+        diverse cuisines. I'm also actively involved as a
+        <strong>social activist</strong>, committed to making a difference.
+        <br /><br />
+        What truly defines me is my
+        <strong>never-give-up attitude</strong> and an unshakable drive to
+        find solutions no matter the challenge. I thrive in environments where
+        growth, impact, and innovation come together.
+      </p>
+    </section>
+
+    <hr style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)" />
+
+    <section id="Techstack" class="thirdSection">
+      <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
+        Tech Stack
+      </h2>
+      <div class="container">
+        <div class="card">
+          <p>Core Java</p>
           <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Techstack">TechStack</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact Me</a></li>
+            <li>OOP (Object-Oriented Programming)</li>
+            <li>Exception Handling</li>
+            <li>Multithreading and Concurrency</li>
+            <li>Collections Framework</li>
+            <li>Java 8+ features (Streams, Lambdas, Optional, etc.)</li>
           </ul>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          <h3>Hello World 👋</h3>
-          <h2 style="font-weight: normal">
-            My Name is <b><span class="purple">Nandakishor</span></b> 😎.
-          </h2>
-          <h4 style="font-weight: normal; margin-top: 5px">
-            Passionate <span id="element"></span>
-          </h4>
-          <h5 style="font-weight: normal">
-            Crafting code & automating the chaos ✌
-          </h5>
+        <div class="card">
+          <p>Frameworks & Tools</p>
+          <ul>
+            <li>
+              Spring Framework (Spring Boot, Spring MVC, Spring Data, Spring
+              Security)
+            </li>
+            <li>Hibernate/JPA for ORM</li>
+            <li>Maven / Gradle for build management</li>
+            <li>Log4j / SLF4J for logging</li>
+            <li>Apache Tomcat web server</li>
+            <li>SonarQube (code quality & static analysis)</li>
+          </ul>
         </div>
-        <div class="rightSection">
-          <img src="bg.png" alt="" height="400px" width="400px" />
+        <div class="card">
+          <p>DevOps & CI/CD</p>
+          <ul>
+            <li>Version Control: Git, GitLab, Svn.</li>
+            <li>CI/CD Tools: Jenkins, GitLab CI</li>
+            <li>Artifact Management: Nexus/Artifactory</li>
+            <li>Infrastructure as Code: Terraform, Ansible</li>
+            <li>Monitoring & Logging:Prometheus + Grafana (monitoring)</li>
+          </ul>
         </div>
-      </section>
+        <div class="card">
+          <p>Others / Soft Skills</p>
+          <ul>
+            <li>Agile/Scrum methodologies</li>
+            <li>Strong debugging & problem-solving skills</li>
+            <li>Collaboration tools (Slack, MS Teams)</li>
+            <li>Jira ticketing tools</li>
+            <li>Good Leadership & Great team player</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-      <hr
-        style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)"
-      />
+    <hr style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)" />
 
-      <section id="About" class="secondSection">
-        <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
-          ABOUT ME
-        </h2>
-        <p>
-          Hi, I'm Nandakishor More — a passionate
-          <strong>Java Backend Developer</strong>, enthusiastic
-          <strong>DevOps Ninja</strong>, and certified
-          <strong>Cloud Practitioner</strong>. I hold a
-          <strong>GCP ACE Certification</strong> and am currently expanding my
-          horizons into multi-cloud platforms like AWS and Azure. <br /><br />
-          Beyond the code, I'm an adventurer at heart. I love
-          <strong>travelling</strong>, <strong>trekking</strong>, and exploring
-          diverse cuisines. I'm also actively involved as a
-          <strong>social activist</strong>, committed to making a difference.
-          <br /><br />
-          What truly defines me is my
-          <strong>never-give-up attitude</strong> and an unshakable drive to
-          find solutions no matter the challenge. I thrive in environments where
-          growth, impact, and innovation come together.
-        </p>
-      </section>
-
-      <hr
-        style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)"
-      />
-
-      <section id="Techstack" class="thirdSection">
-        <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
-          Tech Stack
-        </h2>
-        <div class="container">
+    <section id="Services" class="fourthSection">
+      <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
+        Services
+      </h2>
+      <div class="container">
+        <div class="container3grid">
           <div class="card">
-            <p>Core Java</p>
+            <p>Backend API Development</p>
             <ul>
-              <li>OOP (Object-Oriented Programming)</li>
-              <li>Exception Handling</li>
-              <li>Multithreading and Concurrency</li>
-              <li>Collections Framework</li>
-              <li>Java 8+ features (Streams, Lambdas, Optional, etc.)</li>
+              <li>Building robust RESTful APIs using Java & Spring Boot.</li>
+              <li>Microservice architecture design and implementation</li>
             </ul>
           </div>
           <div class="card">
-            <p>Frameworks & Tools</p>
+            <p>DevOps Solutions</p>
+            <ul>
+              <li>CI/CD pipeline setup using GitLab, Jenkins, etc.</li>
+              <li>Docker & Kubernetes deployment and orchestration</li>
+            </ul>
+          </div>
+          <div class="card">
+            <p>Cloud Architecture & Deployment</p>
             <ul>
               <li>
-                Spring Framework (Spring Boot, Spring MVC, Spring Data, Spring
-                Security)
+                Google Cloud Platform (GCP) services setup & optimization
               </li>
-              <li>Hibernate/JPA for ORM</li>
-              <li>Maven / Gradle for build management</li>
-              <li>Log4j / SLF4J for logging</li>
-              <li>Apache Tomcat web server</li>
-              <li>SonarQube (code quality & static analysis)</li>
-            </ul>
-          </div>
-          <div class="card">
-            <p>DevOps & CI/CD</p>
-            <ul>
-              <li>Version Control: Git, GitLab, Svn.</li>
-              <li>CI/CD Tools: Jenkins, GitLab CI</li>
-              <li>Artifact Management: Nexus/Artifactory</li>
-              <li>Infrastructure as Code: Terraform, Ansible</li>
-              <li>Monitoring & Logging:Prometheus + Grafana (monitoring)</li>
-            </ul>
-          </div>
-          <div class="card">
-            <p>Others / Soft Skills</p>
-            <ul>
-              <li>Agile/Scrum methodologies</li>
-              <li>Strong debugging & problem-solving skills</li>
-              <li>Collaboration tools (Slack, MS Teams)</li>
-              <li>Jira ticketing tools</li>
-              <li>Good Leadership & Great team player</li>
+              <li>Multi-cloud integrations (AWS, Azure in-progress)</li>
             </ul>
           </div>
         </div>
-      </section>
-
-      <hr
-        style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)"
-      />
-
-      <section id="Services" class="fourthSection">
-        <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
-          Services
-        </h2>
-        <div class="container">
-          <div class="container3grid">
-            <div class="card">
-              <p>Backend API Development</p>
-              <ul>
-                <li>Building robust RESTful APIs using Java & Spring Boot.</li>
-                <li>Microservice architecture design and implementation</li>
-              </ul>
-            </div>
-            <div class="card">
-              <p>DevOps Solutions</p>
-              <ul>
-                <li>CI/CD pipeline setup using GitLab, Jenkins, etc.</li>
-                <li>Docker & Kubernetes deployment and orchestration</li>
-              </ul>
-            </div>
-            <div class="card">
-              <p>Cloud Architecture & Deployment</p>
-              <ul>
-                <li>
-                  Google Cloud Platform (GCP) services setup & optimization
-                </li>
-                <li>Multi-cloud integrations (AWS, Azure in-progress)</li>
-              </ul>
-            </div>
+        <div class="container3grid">
+          <div class="card">
+            <p>System Integration & Automation</p>
+            <ul>
+              <li>Automating deployment and scaling processes</li>
+              <li>
+                Scripting & process automation for development lifecycle
+              </li>
+            </ul>
           </div>
-          <div class="container3grid">
-            <div class="card">
-              <p>System Integration & Automation</p>
-              <ul>
-                <li>Automating deployment and scaling processes</li>
-                <li>
-                  Scripting & process automation for development lifecycle
-                </li>
-              </ul>
-            </div>
-            <div class="card">
-              <p>Database Design & Management</p>
-              <ul>
-                <li>SQL/NoSQL DB integration and performance tuning</li>
-                <li>Secure and scalable data storage strategies</li>
-              </ul>
-            </div>
-            <div class="card">
-              <p>Performance Optimization & Troubleshooting</p>
-              <ul>
-                <li>Debugging, monitoring, and profiling applications</li>
-                <li>Improving system response time and uptime</li>
-              </ul>
-            </div>
+          <div class="card">
+            <p>Database Design & Management</p>
+            <ul>
+              <li>SQL/NoSQL DB integration and performance tuning</li>
+              <li>Secure and scalable data storage strategies</li>
+            </ul>
+          </div>
+          <div class="card">
+            <p>Performance Optimization & Troubleshooting</p>
+            <ul>
+              <li>Debugging, monitoring, and profiling applications</li>
+              <li>Improving system response time and uptime</li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <hr
-        style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)"
-      />
+    <hr style="margin: 0 30px; margin-top: 30px; border-color: rgb(19, 19, 92)" />
 
-      <section id="Contact" class="fifthSection">
-        <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
-          Get in Touch
-        </h2>
-        <div class="container">
+    <section id="Contact" class="fifthSection">
+      <h2 style="margin: 10px; margin-bottom: 15px; text-align: center">
+        Get in Touch
+      </h2>
+      <!-- <div class="container">
           <div class="social">social</div>
-          <div class="contactform">contact form</div>
+
+          <div class="contactform">contact form
+
+
+          </div> -->
+
+      <div class="center">
+      <form action="/" class="fs-form" method="POST">
+        <div class="fs-field">
+          <label class="fs-label" for="name">Your Name</label><br>
+          <input class="fs-input" id="name" name="name" required /><br>
         </div>
-      </section>
+        <div class="fs-field">
+          <label class="fs-label" for="email">Email</label><br>
+          <input class="fs-input" id="email" name="email" required /><br>
+          <p class="fs-description">
+            This will help me respond to your query via an email.
+          </p>
+        </div>
+        <div class="fs-field">
+          <label class="fs-label" for="message">Message</label><br>
+          <textarea class="fs-textarea" id="message" name="message" required></textarea>
+          <p class="fs-description">What would you like to discuss?</p>
+        </div>
+        <div class="fs-button-group">
+          <button class="fs-button" type="submit">Submit</button>
+        </div>
+      </form>
+      </div>
+    </section>
 
-    </main>
+  </main>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Software Developer", "DevOps Ninja", "Cloud Practitioner"],
-        typeSpeed: 100,
-      });
-    </script>
-  </body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Software Developer", "DevOps Ninja", "Cloud Practitioner"],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+
 </html>

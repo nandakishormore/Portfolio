@@ -18,12 +18,13 @@ nav {
   display: flex;
   justify-content: SPACE-AROUND;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px;
   height: 50px;
 }
 .left {
   text-align: left;
   font-size: 1.5rem;
+  margin-right: 250px;
 }
 nav ul {
   display: flex;
@@ -134,12 +135,8 @@ p {
 .fifthSection{
   display: block;
   justify-content: space-around;
+  align-items: center;
   margin: 30px;
-}
-
-.fifthSection .container {
-    display: flex;
-    justify-content: space-around;
 }
 
 .fifthSection .container .social{
@@ -149,4 +146,65 @@ p {
 .fifthSection .container .contactform{
     background-color: inherit;
     padding-bottom: 6px;
+}
+
+
+form{
+  width: 50%;
+  display: block;
+  justify-content: left;
+  border: 3px solid;
+  border-color: rgb(191, 123, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fs-field{
+  margin: 10px;
+}
+
+.fs-description{
+  background-color: inherit;
+  margin-top: 3px;
+  font-size: small;
+}
+
+.fs-label{
+  margin-bottom: 6px;
+}
+
+.fs-input{
+  width: 100%;
+  height: 25px;
+}
+
+.fs-textarea{
+  width: 100%;
+  height: 60px;
+}
+
+.fs-button-group{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 90px;
+}
+
+.fs-button{
+  background-color:  rgb(191, 123, 255);
+  color: white;
+  font-family: monospace;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.fs-button:hover{
+  background-color: chartreuse;
+  color: black;
 }
